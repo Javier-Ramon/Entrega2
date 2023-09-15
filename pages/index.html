@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./carts.html">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+    <title>Dulces Tentaciones</title>
+</head>
+
+<body>
+    <header class="bg-white">
+        <nav class="navbar navbar-expand-sm bg-white pt-4 fixed-top">
+            <div class="container-fluid d-flex justify-content-center gap-5">
+                <div class="d-flex gap-5">
+                    <a class="navbar-brand vectorex" href="#"><img src="../recursos/icono.jpg" class="img-icon"
+                            alt="icon"></a>
+                    <button class="navbar-toggler order-first" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item nav_item">
+                            <button id="all" class="nav-link btn-nav" aria-current="page" href="#">Productos</button>
+                        </li>
+                        <li class="nav-item nav_item">
+                            <button id="Chocolate" class="nav-link btn-nav" href="#">Chocolates</button>
+                        </li>
+                        <li class="nav-item nav_item">
+                            <button id="Gomitas" class="nav-link btn-nav" href="#">Gomitas</button>
+                        </li>
+                        <li class="nav-item nav_item">
+                            <button id="Masticables Arcor" class="nav-link btn-nav">Caramelos Masticables</button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="./carts.html" class="container-icon-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-cart-fill"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                        <small id="num-cart"
+                            class="num-cart text-center d-flex align-items-center justify-content-center">0</small>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <main class="margin-main">
+        <div class="container">
+            <div id="container-products" class="row d-flex justify-content-center align-items-center gap-2">
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

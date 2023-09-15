@@ -1,0 +1,82 @@
+[
+    {
+        "id": "Gomitas",
+        "title": "Gomitas",
+        "image": "../recursos/gomitas.jpg",
+        "category": {
+            "name": "Gomitas",
+            "id": "Gomitas"
+        },
+        "price": 1800
+    },
+    {
+        "id": "Gomitas mogul",
+        "title": "Gomitas mogul",
+        "image": "../recursos/gomitas mogul.jpg",
+        "category": {
+            "name": "Gomitas",
+            "id": "Gomitas"
+        },
+        "price": 500
+    },
+    {
+        "id": "Caja Arcor",
+        "title": "Caja Arcor",
+        "image": "../recursos/caja de chocolates arcor.jpg",
+        "category": {
+            "name": "Chocolates",
+            "id": "Chocolate"
+        },
+        "price": 500
+    },
+    {
+        "id": "2 corazones",
+        "title": "2 corazones",
+        "image": "../recursos/chocolate 2 corazones.jpg",
+        "category": {
+            "name": "Chocolates",
+            "id": "Chocolate"
+        },
+        "price": 1000
+    },
+    {
+        "id": "Ferrero rocher",
+        "title": "Ferrero rocher",
+        "image": "../recursos/chocolate ferrerorocher.jpg",
+        "category": {
+            "name": "Chocolates",
+            "id": "Chocolate"
+        },
+        "price": 2000
+    },
+    {
+        "id": "Chocolate shot",
+        "title": "Chocolate shot",
+        "image": "../recursos/Chocolate shot.jpg",
+        "category": {
+            "name": "Chocolates",
+            "id": "Chocolate"
+        },
+        "price": 600
+    },
+    {
+        "id": "Chocolate Milka",
+        "title": "Chocolate Milka",
+        "image": "../recursos/chocolate milka.jpg",
+        "category": {
+            "name": "Chocolate",
+            "id": "Chocolate"
+        },
+        "price": 1500
+    },
+    {
+        "id": "Masticables Arcor",
+        "title": "Masticables Arcor",
+        "image": "../recursos/caramelos masticables.jpg",
+        "category": {
+            "name": "Caramelos Masticables Arcor",
+            "id": "Masticables Arcor "
+        },
+        "price": 3000
+    }
+]
